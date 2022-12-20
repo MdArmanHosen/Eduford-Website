@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:ital,wght@0,200;0,600;1,700&family=Reem+Kufi+Fun&display=swap" rel="stylesheet">
+</head>
+<body> 
+   <!-- header start  -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+               <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="course.html">Course</a></li>
+                     <li><a href="blog.html">Blok</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                 </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+         </nav> 
+         <div class="naymer">
+               <h1>About Us</h1>
+         </div>  
+</section>
+  <!-- header End   -->
+
+ 
+  <!-- about us Contan -->
+ <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+           <h1>We  are the World's Largest University</h1>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum at labore illo voluptatibus exercitationem placeat perferendis, vel voluptate officia numquam, nostrum ratione incidunt quae ipsa est magni ea, iste distinctio nihil. Eum, adipisci eveniet corrupti et voluptas consequatur id ullam quae vero laborum, tempore quas voluptates fugiat laboriosam maxime fugit ipsa quisquam unde? Iste, maxime fugiat odio expedita hic quod id facilis, vero qui explicabo molestiae saepe, animi cumque quas!
+           </p>
+           <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+
+        <div class="about-col">
+            <img src="image/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+ <!-- footer  start -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, vel animi nostrum placeat ea aliquid officiis,<br> ratione quos sed laborum a autem quo, cum porro cupiditate consequuntur! Placeat, sed enim.</p>
+     <div class="icons">
+        <i class="fa-brands fa-facebook "></i>
+        <i class="fa-brands fa-twitter "></i>
+        <i class="fa-brands fa-instagram "></i>
+        <i class="fa-brands fa-linkedin "></i>
+     </div>
+     <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+  </section>
+
+<!-- footer  End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- java script  for toggle Menu -->
+    <script>
+        var navLinks= document.getElementById("navLinks")
+        
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+
+
+    </script>
+</body>
+</html>
